@@ -1,0 +1,53 @@
+h3
+{
+    font-size: 40px !important  ;
+    color: turquoise;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-light:hover
+{
+    background-color: gold;
+    color: red;
+    font-weight: bolder;
+}
+
+.btn-success:hover
+{
+    background-color: rgb(33, 112, 214);
+    font-weight: bolder;
+    font-size:x-large;
+    color: orange;
+}
+
+canvas
+{
+    border-radius: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from {box-shadow: 1px 1px 38px gold  ;}
+    to {box-shadow: 1px 1px 38px fuchsia;}
+}
+
+
+body{    
+background: url(https://th.bing.com/th/id/OIP.UHYPhAwvhrrNAExq8iqX_AHaFj?w=269&h=202&c=7&r=0&o=5&dpr=1.25&pid=1.7)
+no-repeat center
+center fixed;
+background-size: cover;
+-moz-background-size: cover;
+     
+-webkit-background-size: cover;
+     
+-o-background-size: cover;
+height: 100%;
+     
+position:absolute; 
+width:100%;
+}
